@@ -17,8 +17,7 @@ body {
   
   .slide {
 	position: relative;
-	height: 100vh; /* fills entire iframe */
-	max-height: 640px;
+	height: 640px; /* Fixed height for consistency */
   }
   
   .slide img {
