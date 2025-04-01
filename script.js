@@ -7,7 +7,18 @@ $(document).ready(function(){
 	  cssEase: 'linear',
 	  autoplay: true,
 	  autoplaySpeed: 8000,
-	  arrows: true,
+	  arrows: false,
+	  mobileFirst:true,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			arrows:true,
+		  },
+		}
+	  ],
 	  prevArrow: `
 		<button type="button" class="slick-prev custom-arrow">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
